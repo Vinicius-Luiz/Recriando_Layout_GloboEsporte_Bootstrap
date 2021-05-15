@@ -1,0 +1,172 @@
+:root{
+    --verde: #06aa48;
+    --verde_escuro: #05913d;
+    --cinza: #727272;
+    --width-opcoes: 40%;
+    --width-times: 20%;
+    --width-tabelas-extends: 15%;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--verde);
+    width: 100%;
+    padding: 10px;
+}
+
+header .logo {
+    padding-left: 100px;
+    text-align: center;
+}
+
+header .menu-extends{
+    display: flex;
+}
+
+form .form-control{
+    background-color: var(--verde_escuro);
+    color: white
+}
+
+header .menu-opcoes{
+    background-color: white;
+    width: var(--width-opcoes);
+    box-shadow: 5px 5px 5px rgba(15, 15, 15, 0.3);
+}
+
+header .menu-opcoes button, #tabelas-extends button{
+    font-size: 14px;
+    color: var(--cinza);
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header .menu-opcoes button:hover, #tabelas-extends button:hover{
+    color: var(--verde)
+}
+
+header #tabelas-extends{
+    border-left: 1px solid rgb(209, 209, 209);
+    background-color: white;
+    width: var(--width-tabelas-extends);
+    box-shadow: 5px 5px 5px rgba(15, 15, 15, 0.3);
+}
+
+header #tabelas-extends tr {
+    height: 70%;
+    margin-left: 10px;
+}
+
+header #tabelas-extends p{
+    padding: 5px;
+}
+
+header .menu-opcoes td, #tabelas-extends{
+    border-left: 4px solid white;
+    padding: 5px;  
+}
+
+header .menu-opcoes td:hover, #tabelas-extends td:hover{
+    border-left: 4px solid var(--verde);   
+    background-color: #f5f5f5;
+}
+
+header .menu-times{
+    border-left: 1px solid rgb(209, 209, 209) ;
+    border-top-right-radius: 1.5%;
+    border-bottom-right-radius: 1.5%;
+    background-color: white;
+    width: var(--width-times);
+    box-shadow: 5px 5px 5px rgba(15, 15, 15, 0.3);
+}
+
+header .menu-times td{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#tabelas-extends, .menu-opcoes, .menu-times{
+    height: 280px;
+}
+
+/*---------------------------------------------*/
+section{
+    height: 530px;
+    display: flex;
+    margin: 0 10px;
+}
+
+#destaques h1{
+    max-width: 90%;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', sans-serif;
+    margin: 0 10px;
+    font-size: 32px;
+}
+
+#destaques p{
+    max-width: 90%;
+    font-family:sans-serif;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#destaques .destaque-secundario h1{
+    font-size: 24px;
+}
+
+#destaques .destaque-secundario p{
+    font-size: 16px;
+}
+
+section .destaque-principal{
+    width: 50%;
+    background: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0.30)120%), url('img/img1.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+
+section .destaque-secundario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section .secundario1{
+    background: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0.30)120%), url('img/img2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section .secundario2{
+    margin-top: 15px;
+    background: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0.30)120%), url('img/img3.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+section .secundario1, .secundario2{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    height: 50%;
+    margin-left: 15px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}

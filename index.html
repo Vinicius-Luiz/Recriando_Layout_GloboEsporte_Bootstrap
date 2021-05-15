@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Globo Esporte</title>
+    <script src = "bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-dark"> <!--NavTab-->
+            <div id = "menu">
+                <!--Botão Menu-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>  MENU
+                </button>
+                <!--Logo-->
+                <div class="logo">
+                    <img src="img/gelogo.png" alt="Globo Esporte" width="50px">
+                </div>
+                <!--Busca-->
+                <div class = 'busca'>
+                    <form>
+                        <input class="form-control" type="text" value="Buscar" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="collapse menu-extends" id="navbarToggleExternalContent">
+            <table class = "menu-opcoes">
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>brasileirão</b>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#tabelas-extends" aria-controls="tabelas-extends" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>tabelas</b>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>vídeos</b>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>futebol internacional</b>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>olimpíadas</b>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>outros esportes</b>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                                <b>e-sports</b>
+                            </button>
+                        </td>
+                    </tr>
+            </table>
+            <table class = 'collapse' id="tabelas-extends">
+                <tr>
+                    <th style = 'text-align:center; font-size: 15px; color: #727272'>
+                        TABELAS  
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                            <p>nacionais <i class="fas fa-angle-right"></i></p>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                            <p>internacionais <i class="fas fa-angle-right"></i></p>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                            <p>regionais e estaduais <i class="fas fa-angle-right"></i></p>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <table class = menu-times>
+                    <tr>
+                        <td>
+                            <img src="img/america-mineiro-logo.png" alt="América-MG">
+                        </td>
+                        <td>
+                            <img src="img/atletico-pr-logo.png" alt="Atlético-PR">
+                        </td>
+                        <td>
+                            <img src="img/atletico-go-logo.png" alt="Atlético-GO">
+                        </td>
+                        <td>
+                            <img src="img/atletico-mineiro-logo.png" alt="Atlético-MG">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/bahia-logo.png" alt="Bahia">
+                        </td>
+                        <td>
+                            <img src="img/bragantino-logo.png" alt="Bragantino">
+                        </td>
+                        <td>
+                            <img src="img/ceara-logo.png" alt="Ceará">
+                        </td>
+                        <td>
+                            <img src="img/chapecoense-logo.png" alt="Chapecoense">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/corinthians-logo.png" alt="Corinthians">
+                        </td>
+                        <td>
+                            <img src="img/cuiaba-logo.png" alt="Cuiabá">
+                        </td>
+                        <td>
+                            <img src="img/flamengo-logo.png" alt="Flamengo">
+                        </td>
+                        <td>
+                            <img src="img/fluminense-logo.png" alt="Fluminense">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/fortaleza-logo.png" alt="Fortaleza">
+                        </td>
+                        <td>
+                            <img src="img/gremio-logo.png" alt="Grêmio">
+                        </td>
+                        <td>
+                            <img src="img/internacional-logo.png" alt="internacional">
+                        </td>
+                        <td>
+                            <img src="img/juventude-logo.png" alt="Juventude">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/palmeiras-logo.png" alt="Palmeiras">
+                        </td>
+                        <td>
+                            <img src="img/santos-logo.png" alt="Santos">
+                        </td>
+                        <td>
+                            <img src="img/sp-logo.png" alt="São Paulo">
+                        </td>
+                        <td>
+                            <img src="img/sport-logo.png" alt="Sport Recife">
+                        </td>
+                    </tr>
+            </table>
+        </div>
+    </header>
+    <section id = 'destaques'>
+        <div class="destaque-principal">
+            <h1><b>Sport vence o Corinthians e vira o primeiro nordestino campeão da Copa do Brasil</b></h1>
+            <p>Gols de Carlinhos Bala e Luciano Henrique dão ao time pernambucano o título e a vaga para a Taça Libertadores</p>
+        </div>
+        <div class="destaque-secundario">
+            <div class="secundario1">
+                <h1><b>Prefeitura de Milão consegue autorização para a demolição do estádio de San Siro</b></h1>
+                <p>Milan e Internazionale trabalham por nova casa antes de 2024</p>
+            </div>
+            <div class="secundario2">
+                <h1><b>Catar comemora a marca de dois anos para a Copa do Mundo</b></h1>
+                <p>Mais três estádios devem ser entregues até o fim do ano</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/b986cdb251.js" crossorigin="anonymous"></script>
+</body>
+</html>
