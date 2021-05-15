@@ -2,6 +2,7 @@
     --verde: #06aa48;
     --verde_escuro: #05913d;
     --cinza: #727272;
+    --borda_cor: rgb(209, 209, 209);
     --width-opcoes: 40%;
     --width-times: 20%;
     --width-tabelas-extends: 15%;
@@ -11,6 +12,10 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: #f9f9f9;
 }
 
 #menu{
@@ -30,6 +35,7 @@ header .logo {
 
 header .menu-extends{
     display: flex;
+    margin-bottom: 50px;
 }
 
 form .form-control{
@@ -55,8 +61,8 @@ header .menu-opcoes button:hover, #tabelas-extends button:hover{
     color: var(--verde)
 }
 
-header #tabelas-extends{
-    border-left: 1px solid rgb(209, 209, 209);
+#tabelas-extends{
+    border-left: 1px solid var(--borda_cor) ;
     background-color: white;
     width: var(--width-tabelas-extends);
     box-shadow: 5px 5px 5px rgba(15, 15, 15, 0.3);
@@ -82,7 +88,7 @@ header .menu-opcoes td:hover, #tabelas-extends td:hover{
 }
 
 header .menu-times{
-    border-left: 1px solid rgb(209, 209, 209) ;
+    border-left: 1px solid var(--borda_cor) ;
     border-top-right-radius: 1.5%;
     border-bottom-right-radius: 1.5%;
     background-color: white;
@@ -100,8 +106,9 @@ header .menu-times td{
     height: 280px;
 }
 
-/*---------------------------------------------*/
-section{
+/*---------------------------------------------------------------------------------*/
+
+#destaques{
     height: 530px;
     display: flex;
     margin: 0 10px;
@@ -170,3 +177,109 @@ section .secundario1, .secundario2{
     color:white;
     cursor: pointer;
 }
+
+/*---------------------------------------------------------------------------------*/
+#conteudos {
+    padding: 50px;
+    display: flex;  
+    width: 100%;
+}
+
+#conteudos .noticia{
+    border-bottom: 1px solid var(--borda_cor);
+    padding: 25px 0;
+    margin-right: 25px;
+    display: flex;
+}
+
+#conteudos .noticia img{
+    height: 200px;
+    width: 360px;
+    cursor: pointer;
+}
+
+#conteudos .noticia .texto{
+    height: 200px;
+    margin-left: 15px;
+}
+
+#conteudos .noticia h3{
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #333333;
+}
+
+#conteudos .noticia h1, #conteudos .aside h1{
+    font-size: 22px;
+    color: var(--verde);
+    cursor: pointer;
+}
+
+#conteudos .noticia h2{
+    font-size: 16px;
+    color: #333333;
+}
+
+#conteudos .noticia li{
+    padding-top: 5px;
+    font-size: 14px;
+    color: var(--verde);
+    cursor: pointer;
+}
+
+#conteudos .noticia p{
+    font-size: 12px;
+    color: #333333;
+}
+
+/*---------------------------------------------------------------------------------*/
+#conteudos .aside{
+    width: 45%;
+}
+
+#conteudos .tabela-destaque{
+    background-color: white;
+    padding: 20px;
+    border-radius: 2%;
+    border: 1px solid var(--borda_cor)
+}
+
+#conteudos .tabela-destaque h1{
+    padding: 10px 0;
+}
+
+#conteudos .campeonato-destaque{
+    width: 100%;
+}
+
+#conteudos .campeonato-destaque img{
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+}
+
+#conteudos .campeonato-destaque tr{
+    text-align: center;
+    font-size: 12px;
+    color: grey; 
+}
+
+#conteudos .campeonato-destaque td{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid var(--borda_cor);
+    padding: 10px 0;    
+}
+
+#conteudos .campeonato-destaque .posicao{
+    text-align: start;
+}
+
+#conteudos .campeonato-destaque .posicao-num{
+    font-size: 16px;
+    padding-right: 5px;
+    color: grey;
+}
+/*---------------------------------------------------------------------------------*/
+
