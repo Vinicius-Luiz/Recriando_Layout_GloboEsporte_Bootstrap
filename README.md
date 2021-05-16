@@ -6,7 +6,7 @@
 
 # Recriando Layout GloboEsporte
 
-visualização em: 
+visualização em: https://cin.ufpe.br/~vlsf2/portfolio/Recriando_Interface_GloboEsporte/index.html
 
 A partir das atividades do Bootcamp SPTech Desenvolvimento Front-end (Digital Innovation One), foi desenvolvido essa página com o intuito de aprimorar minhas habilidades no desenvolvimento Front-end.
 
