@@ -1,4 +1,9 @@
 @media screen and (max-width: 900px){
+    #menu .logo{
+        padding: 0;
+        margin: 0 20px;
+    }
+
     #destaques{
         display: flex;
         flex-direction: column;
@@ -24,17 +29,17 @@
     }
 
     #destaques h1{
-        width: 65%;
+        width: 100%;
         font-size: 24px;
     }
 
     #destaques .destaque-secundario h1{
         font-size: 24px;
+        width: 100%;
     }
 
     #destaques p{
-        width: 65%;
-        font-size: 18px;
+        font-size: 16px;
     }
     /*---------------------------------------------------------------------------------*/
 
@@ -58,6 +63,7 @@
     #conteudos .noticia .texto{
         width: 100%;
         margin-left: 0;
+        padding: 5px 20px 0 20px;
     }
 
     #conteudos .aside{
